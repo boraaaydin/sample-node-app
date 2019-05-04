@@ -1,9 +1,13 @@
 (function (homeController) {
 
+    var data = require("../data");
+
     homeController.init = function (app) {
 
         app.get("/", function (req, res) {
-            res.render("index", { title: "Express+vash" });
+            data.getNoteCategories(function (error, results) {
+                res.render("index", { title: "Express+vash", error: error, categories: results });
+            });
         });
     };
 
