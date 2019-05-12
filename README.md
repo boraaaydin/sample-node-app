@@ -6,4 +6,6 @@ Sample node app followed video course in https://app.pluralsight.com/library/cou
   * npm install bower --save-dev : install for development environment. Does not copy files to production
 * yarn
   * yarn install : install node_modules according to package.json
+  * yarn add vue: add vue package
+  * yarn add vue -D : add vue package as devdependency 
   * yarn upgrade react :upgrade package
