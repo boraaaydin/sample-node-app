@@ -14,6 +14,7 @@
     "vash": "^0.12.6"
   },
   "devDependencies": {
+    "grunt": "^1.0.4",
     "grunt-nodemon": "^0.4.2"
   }
 }

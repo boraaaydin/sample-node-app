@@ -10,6 +10,6 @@ module.exports=function(grunt){
         },
         
     });
-    grunt.LoadNpmTask('grunt-nodemon');
-    grunt.registertaks('default',['nodemon']);
-};
+    grunt.loadNpmTasks('grunt-nodemon');
+    grunt.registerTask('default',['nodemon']);
+}; 

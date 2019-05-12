@@ -12,4 +12,9 @@ Sample node app followed video course in https://app.pluralsight.com/library/cou
   * install yarn dependencies to another folder
     * yarn add --modules-folder=public\lib underscore
     * add to .yarnrc file -> --modules-folder public/lib 
+* grunt
+  * add gruntfile.js
+  * npm install grunt-cli -g
+  * npm install grunt-nodemon -save-dev
+  * type grunt in terminal
 
