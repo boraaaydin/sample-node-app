@@ -13,5 +13,7 @@
     "underscore": "^1.9.1",
     "vash": "^0.12.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "grunt-nodemon": "^0.4.2"
+  }
 }
