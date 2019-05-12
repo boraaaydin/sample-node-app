@@ -9,3 +9,7 @@ Sample node app followed video course in https://app.pluralsight.com/library/cou
   * yarn add vue: add vue package
   * yarn add vue -D : add vue package as devdependency 
   * yarn upgrade react :upgrade package
+  * install yarn dependencies to another folder
+    * yarn add --modules-folder=public\lib underscore
+    * add to .yarnrc file -> --modules-folder public/lib 
+
